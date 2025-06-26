@@ -8,6 +8,7 @@ a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 }
 .link {
+  font-size: 1.4em;
   box-shadow: inset 0 0 0 0 #54b3d6;
   color: #54b3d6;
   margin: 0 -.25rem;
@@ -15,16 +16,13 @@ a:hover, a:visited, a:link, a:active{
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .link:hover {
-  box-shadow: inset 275px 0 0 0 #54b3d6;
+  box-shadow: inset 255px 0 0 0 #54b3d6;
   color: white;
 }
 html{
     background: #45048a;
 background: linear-gradient(135deg, rgba(69, 4, 138, 1) 32%, rgba(142, 25, 168, 1) 100%, rgba(6, 57, 122, 1) 74%);
 }
-h1{
+h1,h2{
   color: #54b3d6;
-}
-h2{
-  color: #54b3d6;   
 }
